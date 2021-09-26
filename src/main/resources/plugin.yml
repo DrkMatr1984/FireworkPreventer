@@ -1,0 +1,14 @@
+name: FireworkPreventer
+author: DrkMatr1984
+version: 1.0
+api-version: 1.17
+main: me.drkmatr1984.fireworkpreventer.FireworkPreventer
+permissions:
+    firework.preventunlessgliding:
+        description: Prevents players from launching fireworks unless gliding
+        type: boolean
+        default: false
+    firework.prevent:
+        description: Prevents players from launching fireworks at all
+        type: boolean
+        default: false
